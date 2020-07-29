@@ -1,2 +1,2 @@
-# http://Marlineq.github.io
+# http://marlineq.github.io
 My personal website
