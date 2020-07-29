@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset ="utf-8"/>
+   <title> CarolynsCupcake </title>
+
+ 
+  
+   <link href="layout.css" rel="stylesheet"/>
+
+   
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+
+       <li><a href="Home.html">Home</a></li>
+	   <li><a href="About.html">About</a></li>
+	   <li><a href="Menu.html">Menu</a></li>
+	   <li><a href="Contact.html">Contact</a></li>
+	   <li><a href="recipes.html">Recipes</a></li>
+	   <li><a href="Followme.html">Follow me</a></li>
+      </ul>
+    </nav>
+	
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	  <article>
+        <header>
+     <img src="carolynscupcake.jpg" alt="cupcake" width="200" height="250" />
+
+     </header>
+	 
+	 
+	<h4>Welcome to Carolyn's Cupcake Shop</h4>
+	
+	<p>At Carolyn's Cupcake, we pride ourselves in making the best tasting cupcakes and using
+	the highest quality ingredients. All our cupcakes are baked daily from scratch using only premium
+	ingredients – Madagascar Bourbon Vanilla, European sweet cream butter, premium chocolate ,
+	organic eggs and fresh fruit.</p>
+	
+	
+<center>
+<h2 class="center"></h2>
+
+<div class="content" style="max-width:500px">
+  <img class="mySlides" src="rainbowcup.jpg" style="width:100%">
+  <img class="mySlides" src="vanilla.jpg" style="width:100%">
+  <img class="mySlides" src="RedVelvet.jpg" style="width:100%">
+    <img class="mySlides" src="chocup.jpg" style="width:100%">
+	 <img class="mySlides" src="candycupcake.jpg" style="width:100%">
+	
+</div>
+</article>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</center>
+<table class="center">
+<h1 id="Prices">Prices</h1>
+
+<tr>
+<th scope="col">Cupcake</th>
+<th scope="col">Price</th>
+</tr>
+
+<td>per half dozen</td>
+<td>$20 </td>
+</tr>
+
+<td>per dozen cupcakes</td>
+<td>$25</td>
+</tr>
+
+<td>individual cupcake</td>
+<td>$1</td>
+</tr>
+
+<td>2 dozen mini cupcakes</td>
+<td>$30</td>
+</tr>
+
+</table>
+
+
+<footer>
+      Marlain Qourah &copy; 2020 English (US)
+           
+</footer>
+</body>
+
+</html>
